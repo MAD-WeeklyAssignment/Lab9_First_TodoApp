@@ -29,6 +29,13 @@ public class TodoActivity extends AppCompatActivity {
             mTodoIndex = savedInstanceState.getInt(TODO_INDEX, 0);
         }
 
+       // initialize member TextView so we can manipulate it later
+        final TextView TodoTextView;
+        TodoTextView = (TextView) findViewById(R.id.textViewTodo);
+
+        // read the todoArray from res/values/strings.xml
+        Resources res = getResources();
+        mTodos = res.getStringArray(R.array.todos);
 
     }
 
