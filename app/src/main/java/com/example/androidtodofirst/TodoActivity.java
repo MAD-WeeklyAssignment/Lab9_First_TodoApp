@@ -23,7 +23,11 @@ public class TodoActivity extends AppCompatActivity {
 
         // set the user interface layout for this Activity
         setContentView(R.layout.activity_todo);
-
+        /* check for saved state due to changes such as rotation
+            and restore any saved state such as the TODO_INDEX */
+        if (savedInstanceState != null) {
+            mTodoIndex = savedInstanceState.getInt(TODO_INDEX, 0);
+        }
 
 
     }
