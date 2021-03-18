@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.lab9_first_todoapp">
+    package="com.example.androidtodofirst">
 
     <application
         android:allowBackup="true"
@@ -8,8 +8,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Lab9_First_TodoApp">
-        <activity android:name=".MainActivity">
+        android:theme="@style/Theme.AndroidTodoFirst">
+        <activity android:name=".TodoActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

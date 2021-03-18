@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "Lab9_First_TodoApp"
+rootProject.name = "Android Todo First"
